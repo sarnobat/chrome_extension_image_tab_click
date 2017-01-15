@@ -1,7 +1,7 @@
 {
   "name": "Image click",
   "version": "1.0",
-  "description": "Stash to Product",
+  "description": "Alt left mouse click opens image in new tab",
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
@@ -11,7 +11,7 @@
   "background": { "scripts": ["background.js"] },
   "browser_action": {
     "default_title": "Time to current page",
-    "default_icon": "icon.png"
+    "default_icon": "yellow.png"
     
   },
   "permissions": [
